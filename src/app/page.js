@@ -6,6 +6,7 @@ import OurSpecialty from "@/components/our specialty/OurSpecialty";
 import DoctorCheckUp from "@/components/DoctorCheckUp";
 import WorkingProcess from "@/components/WorkingProcess";
 import Testimonial from "@/components/Testimonial";
+import LatestNews from "@/components/LatestNews";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
 <DoctorCheckUp/>
 <WorkingProcess/>
 <Testimonial/>
+<LatestNews/>
   </main>
   )
 }
